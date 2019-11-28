@@ -7,9 +7,12 @@ function Navbar(props) {
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right">
-        <li><Link to="/home">Home</Link></li>
+        <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link href="collapsible.html">contact</Link></li>
+        <li><Link to="/Apidatashow">Api</Link></li>
+        <li><Link to="/Login">Login</Link></li>
+        <li><Link to="/Signup">Signup</Link></li>
+        <li><Link to="/contact">contact</Link></li>
       </ul>
     </div>
   </nav>
